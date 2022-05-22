@@ -1,5 +1,4 @@
 import 'package:align_ai/main.dart';
-import 'package:align_ai/widgets/search_bar.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 
@@ -30,7 +29,7 @@ class MainScreen extends StatelessWidget {
             Container(
               padding: EdgeInsets.only(left: 16.0, right: 16.0),
               child: Text(
-                'AlignAI',
+                'Yoga App',
                 style: TextStyle(
                   color: Color(0xFFFE7C7C),
                   fontWeight: FontWeight.bold,
@@ -38,26 +37,26 @@ class MainScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Container(
-              padding: EdgeInsets.only(left: 16.0, right: 16.0),
-              child: Text(
-                'Master Your Body Alignment',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w400,
-                  fontSize: 18.0,
-                ),
-              ),
-            ),
-            SizedBox(height: 10),
-            Image.asset('images/align.PNG'),
-            SizedBox(height: 10),
-            Container(
-              padding: EdgeInsets.only(left: 16.0, right: 16.0),
-              child: SizedBox(
-                child: SearchBar('What pose do you wish to align?'),
-              ),
-            ),
+            // Container(
+            //   padding: EdgeInsets.only(left: 16.0, right: 16.0),
+            //   child: Text(
+            //     'Master Your Body Alignment',
+            //     style: TextStyle(
+            //       color: Colors.black,
+            //       fontWeight: FontWeight.w400,
+            //       fontSize: 18.0,
+            //     ),
+            //   ),
+            // ),
+            // SizedBox(height: 10),
+            // Image.asset('images/align.PNG'),
+            // SizedBox(height: 10),
+            // Container(
+            //   padding: EdgeInsets.only(left: 16.0, right: 16.0),
+            //   child: SizedBox(
+            //     child: SearchBar('What pose do you wish to align?'),
+            //   ),
+            // ),
             SizedBox(height: 20),
             Container(
               padding: EdgeInsets.only(left: 16.0, right: 16.0),

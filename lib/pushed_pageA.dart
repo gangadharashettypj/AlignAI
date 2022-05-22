@@ -1,12 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:camera/camera.dart';
-import 'package:tflite/tflite.dart';
 import 'dart:math';
 
 import 'package:align_ai/services/camera.dart';
-import 'package:align_ai/services/render_data.dart';
-import 'package:align_ai/services/render_data_yoga.dart';
 import 'package:align_ai/services/render_data_arm_press.dart';
+import 'package:camera/camera.dart';
+import 'package:flutter/material.dart';
+import 'package:tflite/tflite.dart';
 
 class PushedPageA extends StatefulWidget {
   final List<CameraDescription> cameras;
@@ -50,7 +48,7 @@ class _PushedPageAState extends State<PushedPageA> {
     Size screen = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        title: Text('AlignAI Arm Press'),
+        title: Text('Arm Press'),
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
